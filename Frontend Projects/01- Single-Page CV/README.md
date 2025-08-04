@@ -9,3 +9,9 @@ This is project one from the frontend roadmap on Roadmap.sh for more info check 
 - SEO meta tags in the head section. ✅
 - OG tags for better social media sharing. ✅
 - A favicon linked in the head section. ✅
+
+## To Run project
+
+1. Download the repository
+2. Open project file in this case 01- Single-Page CV
+3. Open index.html with browser
