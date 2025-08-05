@@ -1,8 +1,9 @@
 # Single-Page CV
 
-This is project one from the frontend roadmap on Roadmap.sh for more info check
+This is project two and three from the frontend roadmap on Roadmap.sh for more info check
 
-- [project one details](https://roadmap.sh/projects/single-page-cv)
+- [project 2 details](https://roadmap.sh/projects/basic-html-website)
+- [project 3 details](https://roadmap.sh/projects/portfolio-website)
 
 ## Submission Checklist:
 
