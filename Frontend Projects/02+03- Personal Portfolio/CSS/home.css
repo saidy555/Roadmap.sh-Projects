@@ -1,0 +1,36 @@
+html {
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  padding: 0.5em;
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  gap: 1em;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+}
+
+#center {
+  display: flex;
+}
