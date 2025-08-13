@@ -3,10 +3,16 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Alsaidy's Portfolio</title>
+    <title>John's Portfolio</title>
   </head>
   <body>
     <header>
+      <h1 id="name">
+        <img
+          src="../assets/favicon_io/favicon-32x32.png"
+          alt="john doe image"
+        />John Doe
+      </h1>
       <nav>
         <ul>
           <li><a href="../index.html">Home</a></li>
@@ -16,7 +22,292 @@
         </ul>
       </nav>
     </header>
-    <main></main>
-    <footer></footer>
+    <main>
+      <h2>Projects</h2>
+      <section>
+        <h3>HTML-Only Portfolio</h3>
+        <p>
+          I developed a personal portfolio website using HTML5 exclusively,
+          without any CSS or JavaScript. The main goal was to demonstrate a
+          strong understanding of core HTML structure, semantic elements, and
+          accessibility best practices.
+        </p>
+        <figure>
+          <figcaption>
+            The project features a single-page layout that includes the
+            following sections:
+          </figcaption>
+          <ul>
+            <li>
+              Header: Contains the website title and navigation links using an
+              unordered list (&lt;ul&gt;) and list items (&lt;li&gt;).
+            </li>
+            <li>
+              About Me: A section dedicated to a brief introduction and
+              professional summary.
+            </li>
+            <li>
+              Projects: Showcases a list of projects, each with a title,
+              description, and link to its corresponding page or repository. I
+              used &lt;figure&gt; and &lt;figcaption&gt; to semantically group
+              project images with their captions.
+            </li>
+            <li>
+              Skills: Lists technical skills using an unordered list. Contact:
+              Provides contact information and a basic contact form using the
+              &lt;form&gt; element.
+            </li>
+          </ul>
+        </figure>
+        <p>
+          I prioritized using semantic HTML tags like &lt;header&gt;,
+          &lt;main&gt;, &lt;nav&gt;, &lt;section&gt;, &lt;footer&gt;,
+          &lt;figure&gt;, and &lt;figcaption&gt; to ensure the document's
+          structure is meaningful and accessible to screen readers and search
+          engines. All images were given descriptive alt attributes. This
+          project highlights my ability to build a robust and well-structured
+          web page from the ground up, a foundational skill for any web
+          developer.
+        </p>
+        <a href="">Check out the project</a>
+      </section>
+      <section>
+        <h3>Interactive Calculator</h3>
+        <p>
+          This project is a fully functional calculator built using HTML5, CSS3,
+          and JavaScript. The primary goal was to create an intuitive and
+          responsive user interface for performing basic arithmetic operations.
+          The frontend is entirely self-contained, requiring no external
+          libraries or frameworks.
+        </p>
+
+        <h4>HTML Structure</h4>
+        <p>
+          The HTML file provides the foundational structure of the calculator.
+          It's built with a main container (&lt;div&gt;) that holds the display
+          screen (&lt;input&gt;) and the button grid. Each button is a
+          &lt;button&gt; element with a specific class to identify its function
+          (e.g., operator, number, clear). This semantic structure ensures that
+          the layout is logical and easy to navigate.
+        </p>
+
+        <h4>CSS Styling</h4>
+        <figure>
+          <figcaption>
+            CSS was used to style the calculator and make it visually appealing
+            and user-friendly. Key styling features include:
+          </figcaption>
+          <ul>
+            <li>
+              Grid Layout: A CSS Grid was utilized to arrange the buttons in a
+              clean, organized layout. This approach makes the calculator
+              responsive, ensuring it looks good on various screen sizes.
+            </li>
+            <li>
+              Aesthetic Design: I applied custom fonts, background colors, and
+              button styles to create a modern, minimalist look. Hover and
+              active states were added to the buttons to provide visual feedback
+              to the user.
+            </li>
+            <li>
+              Responsiveness: Media queries were implemented to adjust the font
+              sizes and button dimensions on smaller screens, ensuring a
+              consistent user experience on mobile devices.
+            </li>
+          </ul>
+        </figure>
+
+        <h4>JavaScript Functionality</h4>
+        <figure>
+          <figcaption>
+            JavaScript handles all the calculator's logic and interactivity. The
+            script performs the following key functions:
+          </figcaption>
+
+          <li>
+            Event Handling: It listens for click events on the number and
+            operator buttons.
+          </li>
+
+          <li>
+            State Management: It manages the state of the calculator, storing
+            the current input, the previous number, and the selected operator.
+          </li>
+
+          <li>
+            Calculation Logic: A function evaluates the mathematical expression
+            based on the order of operations. It uses a switch statement to
+            handle different operators (+, -, *, /).
+          </li>
+
+          <li>
+            Display Updates: The JavaScript dynamically updates the calculator's
+            display (&lt;input /&gt;) in real-time as the user inputs numbers
+            and operators. It also handles edge cases like division by zero and
+            multiple decimal points.
+          </li>
+        </figure>
+
+        <p>
+          This project showcases a solid understanding of fundamental web
+          development concepts, from structuring a document with HTML to styling
+          it with CSS and adding interactive functionality with JavaScript.
+        </p>
+        <a href="">Check out the project</a>
+      </section>
+      <section>
+        <h3>Interactive Quiz Application</h3>
+        <p>
+          This project is a dynamic, multi-question quiz application built using
+          HTML5, CSS3, and JavaScript. The primary goal was to create an
+          engaging and educational tool that presents questions, tracks user
+          answers, and provides instant feedback and a final score.
+        </p>
+        <h4>HTML Structure</h4>
+        <figure>
+          <figcaption>
+            The HTML file provides a clear, logical structure for the quiz. It
+            includes distinct sections for the welcome screen, the quiz
+            container, and the final results display. Key elements include:
+          </figcaption>
+          <ul>
+            <li>A title and a "Start Quiz" button.</li>
+            <li>
+              A question container with a designated area for the question text.
+            </li>
+            <li>
+              A list of answer choices, dynamically generated using an unordered
+              list (&lt;ul&gt;).
+            </li>
+            <li>A status bar to show the current question number.</li>
+            <li>
+              A results section to display the user's score and a button to
+              restart the quiz.
+            </li>
+          </ul>
+        </figure>
+        <p>
+          The HTML is semantically structured to ensure accessibility and ease
+          of manipulation with JavaScript.
+        </p>
+        <h4>CSS Styling</h4>
+        <figure>
+          <figcaption>
+            CSS was used to create a clean and intuitive user interface. The
+            styling focuses on user experience and readability:
+          </figcaption>
+          <ul>
+            <li>
+              Layout: Flexbox was utilized to center the quiz container on the
+              page and to organize the answer buttons horizontally and
+              vertically. This ensures the layout is responsive and adapts well
+              to different screen sizes.
+            </li>
+            <li>
+              Visual Feedback: The buttons change color on hover to give visual
+              feedback. More importantly, JavaScript dynamically adds classes to
+              the buttons to style correct answers (e.g., green) and incorrect
+              answers (e.g., red) after a user makes a selection.
+            </li>
+            <li>
+              Animations: Simple CSS transitions were used to animate the
+              display of new questions and the final score, making the interface
+              feel more polished and dynamic.
+            </li>
+          </ul>
+        </figure>
+        <h4>JavaScript Functionality</h4>
+        <figure>
+          <figcaption>
+            JavaScript is the core of the application, managing all the quiz
+            logic and interactivity. Its main responsibilities include:
+          </figcaption>
+          <ul>
+            <li>
+              State Management: It maintains the quiz's state, tracking the
+              current question index, the user's score, and the array of
+              questions.
+            </li>
+
+            <li>
+              Dynamic Content Generation: Upon starting the quiz, JavaScript
+              dynamically renders the questions and answer choices from a
+              predefined data structure (an array of objects).
+            </li>
+
+            <li>
+              Event Handling: It listens for clicks on the answer buttons. When
+              a user selects an answer, the script checks if it's correct,
+              updates the score, provides visual feedback, and advances to the
+              next question.
+            </li>
+            <li>
+              Game Logic: The script handles the flow of the quiz. When all
+              questions have been answered, it hides the quiz container and
+              displays the final score and a "restart" button.
+            </li>
+            <li>
+              Timer: An optional timer function was implemented to add an extra
+              layer of challenge, tracking the time spent on the quiz and
+              displaying it in the results.
+            </li>
+          </ul>
+        </figure>
+        <p>
+          This project demonstrates a strong grasp of building an interactive
+          application from the ground up, combining structured HTML,
+          user-friendly CSS, and logical JavaScript to create a complete and
+          functional web experience.
+        </p>
+        <a href="">Check out the project</a>
+      </section>
+    </main>
+    <footer>
+      <div>
+        <a href="">
+          <img
+            src="../assets/icons/facebook-svgrepo-com.svg"
+            alt="facebook icon"
+            width="40"
+            height="40"
+          />
+        </a>
+        <a href=""
+          ><img
+            src="../assets/icons/github-142-svgrepo-com.svg"
+            alt="github icon"
+            width="40"
+            height="40"
+        /></a>
+        <a href=""
+          ><img
+            src="../assets/icons/instagram-svgrepo-com.svg"
+            alt="instagram icon"
+            width="40"
+            height="40"
+        /></a>
+        <a href=""
+          ><img
+            src="../assets/icons/linkedin-svgrepo-com.svg"
+            alt="linkedin icon"
+            width="40"
+            height="40"
+        /></a>
+        <a href=""
+          ><img
+            src="../assets/icons/x.svg"
+            alt="X aka twitter icon"
+            width="40"
+            height="40"
+        /></a>
+      </div>
+      <ul>
+        <li><a href="../index.html">Home</a></li>
+        <li><a href="./projects.html">Projects</a></li>
+        <li><a href="./articles.html">Articles</a></li>
+        <li><a href="./contact.html">Contact</a></li>
+      </ul>
+      <span>&copy all right reserved 2025</span>
+    </footer>
   </body>
 </html>
