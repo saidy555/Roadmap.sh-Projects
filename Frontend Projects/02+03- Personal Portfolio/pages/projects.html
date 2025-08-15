@@ -25,7 +25,7 @@
     <main>
       <h2>Projects</h2>
       <section>
-        <h3>HTML-Only Portfolio</h3>
+        <h3 id="project1">HTML-Only Portfolio</h3>
         <p>
           I developed a personal portfolio website using HTML5 exclusively,
           without any CSS or JavaScript. The main goal was to demonstrate a
@@ -72,7 +72,7 @@
         <a href="">Check out the project</a>
       </section>
       <section>
-        <h3>Interactive Calculator</h3>
+        <h3 id="project2">Interactive Calculator</h3>
         <p>
           This project is a fully functional calculator built using HTML5, CSS3,
           and JavaScript. The primary goal was to create an intuitive and
@@ -156,7 +156,7 @@
         <a href="">Check out the project</a>
       </section>
       <section>
-        <h3>Interactive Quiz Application</h3>
+        <h3 id="project3">Interactive Quiz Application</h3>
         <p>
           This project is a dynamic, multi-question quiz application built using
           HTML5, CSS3, and JavaScript. The primary goal was to create an
@@ -258,6 +258,71 @@
           application from the ground up, combining structured HTML,
           user-friendly CSS, and logical JavaScript to create a complete and
           functional web experience.
+        </p>
+        <a href="">Check out the project</a>
+      </section>
+      <section>
+        <h3 id="project4">Countdown Timer</h3>
+        <p>
+          This project is a simple yet fully functional countdown timer created
+          with HTML5, CSS3, and JavaScript. Its purpose is to count down from a
+          specified time to zero, providing real-time visual feedback to the
+          user. The application is a great example of combining the three core
+          frontend languages to build an interactive and practical utility.
+        </p>
+        <h4>HTML Structure</h4>
+        <p>
+          The HTML file is the foundation of the timer. It contains a main
+          container element that holds the display for the countdown and buttons
+          to control the timer. The display is broken down into separate
+          elements for days, hours, minutes, and seconds, allowing for
+          individual styling and manipulation. There are also buttons for
+          "Start," "Pause," and "Reset," which are essential for user
+          interaction. The structure is simple and semantic, making it easy to
+          understand and work with.
+        </p>
+        <h4>CSS Styling</h4>
+        <p>
+          The CSS provides a clean, minimalist design for the timer. It uses
+          Flexbox to center the timer on the page and align the time units and
+          control buttons. Custom fonts, colors, and shadows give the timer a
+          modern look. The buttons have hover and active states to provide clear
+          visual feedback when clicked. The CSS is also responsive, ensuring the
+          timer looks good and is usable on both desktop and mobile devices.
+        </p>
+        <h4>JavaScript Functionality</h4>
+        <figure>
+          <figcaption>
+            JavaScript is the brain of the application, handling all the logic.
+            The core functionality is driven by the setInterval() method, which
+            decrements the time every second. The script:
+          </figcaption>
+          <ul>
+            <li>
+              Manages state: It stores the target date and the remaining time.
+            </li>
+            <li>
+              Updates the display: It dynamically calculates the remaining days,
+              hours, minutes, and seconds, then updates the HTML elements
+              accordingly.
+            </li>
+            <li>
+              Handles events: It listens for clicks on the control buttons. The
+              "Start" button initiates the countdown, "Pause" clears the
+              interval to stop the timer, and "Reset" sets the display back to
+              its initial state.
+            </li>
+            <li>
+              Provides a finish message: When the countdown reaches zero, the
+              script stops the timer and displays a "Time's up!" message to the
+              user.
+            </li>
+          </ul>
+        </figure>
+        <p>
+          This project demonstrates a solid understanding of fundamental
+          JavaScript concepts like event listeners, setInterval, and DOM
+          manipulation, all while creating a useful and visually appealing tool.
         </p>
         <a href="">Check out the project</a>
       </section>
